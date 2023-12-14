@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/responsivo.css">
+    <script src="/js/index.js" defer></script>    
+</head>
+<body>
+    <header>
+        <h1 class="animate__animated animate__fadeInDown">Minhas tarefas</h1>
+    </header>
+
+    <section class="div-cria-nota">
+        <input type="text" name="add-tarefa" id="input-add-tarefa" placeholder="Adicone a tarefa...">
+        <button id="btn-add" class="btn" onclick="adicionarTarefa()">Adicionar</button>
+    </section>  
+
+    <span class="erro">Adicione a tarefa.</span>
+
+   <main id="area-principal"></main>   
+</body>
+</html>

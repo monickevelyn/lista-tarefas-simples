@@ -1,0 +1,35 @@
+@media (max-width: 1250px){
+    .div-item{
+        width: 380px;
+    }
+}
+@media (max-width: 1200px){
+    .div-item{
+        width: 350px;   
+    }
+}
+@media (max-width: 720px){
+    #area-principal{
+       justify-content: space-evenly;
+    }
+
+    .div-item{
+        width: 350px;   
+    }
+}
+@media (max-width: 350px){
+    #area-principal{
+       justify-content: space-evenly;
+    }
+
+    .div-item{
+        width: 300px;   
+    }
+
+    #input-add-tarefa{
+        width: 250px;
+    }
+    h1{
+        font-size: 30px;
+    }
+}
